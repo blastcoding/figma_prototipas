@@ -1,0 +1,60 @@
+.container-fluid.nav {
+    height: 115px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn.donate {
+    background-color: orangered;
+}
+
+.hashtag {
+    color: orangered;
+    text-decoration: none;
+}
+
+.description-text {
+    color: #777777;
+    font-size: 16px;
+}
+
+.card-deck {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card-img-top {
+    background: #333333;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.card-title {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 27px;
+
+    color: #000000;
+
+}
+
+.card-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.progress-title {
+    color: #FF7000;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 27px;
+}
