@@ -63,18 +63,28 @@
 }
 
 .progress-title {
-  font-family: "Lora";
-  font-style: normal;
+  color: #ff7000;
   font-weight: 700;
   font-size: 21px;
   line-height: 27px;
+}
+
+.progress-title-simple {
+  font-size: 14px;
+  color: #333333;
+  font-weight:300;
+  text-decoration: none;
+}
+
+.progress-percentage {
+  font-size: 12px;
+  color: #333333;
 }
 
 /*Help-box Text*/
 .h1-how-to {
   font-size: 54px;
   font-weight: 700;
-  color: #fff;
 }
 
 .h1-partners {
@@ -85,12 +95,10 @@
 .h2-how-to {
   font-size: 28px;
   font-weight: 700;
-  color: #fff;
 }
 
 .p-how-to {
   font-size: 16px;
-  color: #fff;
 }
 
 .orange-highlight {
@@ -99,8 +107,8 @@
 
 /*Helpbox*/
 
-.helpbox {
-  background-color: #000000;
+.helpbox2col {
+  background-color: #727272;
 }
 
 .mb-5.d-flex {
@@ -116,6 +124,20 @@
   justify-content: center;
   align-items: center;
   margin-right: 15px;
+}
+
+.orange-line {
+  background-color: #ff7000;
+  height: 3px;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+
+.btn-orange {
+  background-color: #ff7000;
+  color: #fff;
+  border-color: #ff7000;
 }
 
 /*Helpbox icons*/
@@ -138,6 +160,7 @@
   font-size: 20px;
   font-weight: 600;
   line-height: 115px;
+  margin: 0;
 }
 
 .btn.donate-dark {
@@ -145,6 +168,7 @@
   color: #fff;
   font-size: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+  margin: 0;
 }
 
 .btn.donate-dark:hover {
@@ -153,9 +177,17 @@
 
 /*Footer*/
 
-.copyright {
+.copyright-footer {
   background-color: #000000;
-  color: #fff;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+
+.copyright-text {
+  margin: 0;
 }
 
 .text-body-secondary {
@@ -164,9 +196,34 @@
 
 .socialicons {
   font-size: 30px;
-  color:#ff7000;
+  color: #ff7000;
 }
 
 .socialicons:hover {
   color: #ff8b32;
+}
+
+.contact-icons {
+  font-size: 25px;
+  color: #ff7000;
+  margin-right: 5px;
+}
+
+.contact-icons:hover {
+  color: #ff8b32;
+}
+
+.d-flex-icons {
+  display: flex;
+  align-items: center;
+}
+
+.d-flex-icons span {
+  margin-left: 8px;
+}
+
+.fixed-width {
+  display: inline-block;
+  width: 200px;
+  text-align: left;
 }
