@@ -120,3 +120,29 @@
   font-size: 1.5rem;
   color: #ffffff;
 }
+
+.orange-box {
+  background-color: #ff7000;
+  height: 100px;
+}
+
+.box-text {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.btn.donate-dark {
+  background-color: #000000;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.btn.donate-dark:hover {
+  font-weight: 600;
+}
+
+.copyright {
+  background-color: #000000;
+  height: 100px;
+}
